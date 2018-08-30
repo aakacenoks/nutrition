@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4283F8043223E0ADA59DC110 /* Pods_My_Nutrition_Plan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E6D5BE8F7212CC6935E26B /* Pods_My_Nutrition_Plan.framework */; };
+		A716D2E220D9B6D00084442D /* WikiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716D2E120D9B6D00084442D /* WikiVC.swift */; };
+		A73110A820D4231B00A6C3B5 /* UserParamsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73110A720D4231B00A6C3B5 /* UserParamsVC.swift */; };
+		A73110AA20D43C6800A6C3B5 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73110A920D43C6800A6C3B5 /* WelcomeVC.swift */; };
+		A73110AD20D452AB00A6C3B5 /* GenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73110AC20D452AB00A6C3B5 /* GenderVC.swift */; };
+		A73110AF20D452BF00A6C3B5 /* AgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73110AE20D452BF00A6C3B5 /* AgeVC.swift */; };
+		A73110B120D452CA00A6C3B5 /* HeightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73110B020D452CA00A6C3B5 /* HeightVC.swift */; };
+		A73110B320D452DE00A6C3B5 /* WeightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73110B220D452DE00A6C3B5 /* WeightVC.swift */; };
+		A74CF0FF20D8298000496211 /* IndividualMealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CF0FE20D8298000496211 /* IndividualMealVC.swift */; };
+		A759807420BF268100841F36 /* CreateMealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A759807320BF268100841F36 /* CreateMealVC.swift */; };
+		A783F2D820D033EE006A9E64 /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783F2D720D033EE006A9E64 /* Foods.swift */; };
+		A783F2DA20D05B78006A9E64 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783F2D920D05B78006A9E64 /* Helpers.swift */; };
+		A783F2DD20D17EA3006A9E64 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A783F2DB20D17EA3006A9E64 /* CoreData.xcdatamodeld */; };
+		A783F30020D18C33006A9E64 /* AllMealsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783F2FF20D18C33006A9E64 /* AllMealsVC.swift */; };
+		A783F30220D193E5006A9E64 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783F30120D193E5006A9E64 /* PersistenceService.swift */; };
+		A783F31720D199B6006A9E64 /* Meal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783F31520D199B6006A9E64 /* Meal+CoreDataClass.swift */; };
+		A783F31820D199B6006A9E64 /* Meal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A783F31620D199B6006A9E64 /* Meal+CoreDataProperties.swift */; };
+		A7AD687E20E133DE003825C3 /* SwiftGifCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD687D20E133DE003825C3 /* SwiftGifCommon.swift */; };
+		A7DB03DE20AB22F400297140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB03DD20AB22F400297140 /* AppDelegate.swift */; };
+		A7DB03E320AB22F400297140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DB03E120AB22F400297140 /* Main.storyboard */; };
+		A7DB03E520AB22F700297140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DB03E420AB22F700297140 /* Assets.xcassets */; };
+		A7DE6F3821382A4B0035430B /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7DE6F3721382A4B0035430B /* loading.gif */; };
+		A7DE6F3921382BE50035430B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD688B20E17D45003825C3 /* Constants.swift */; };
+		A7DE6F3A21382BE90035430B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD688A20E17D43003825C3 /* UIView+Extension.swift */; };
+		A7F65EBE20CD8C3A00B7CC80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7F65EBD20CD8C3A00B7CC80 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01E6D5BE8F7212CC6935E26B /* Pods_My_Nutrition_Plan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Nutrition_Plan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2353D93D5871BCAC0EEB5C4D /* Pods-My Nutrition Plan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Nutrition Plan.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Nutrition Plan/Pods-My Nutrition Plan.release.xcconfig"; sourceTree = "<group>"; };
+		A716D2E120D9B6D00084442D /* WikiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiVC.swift; sourceTree = "<group>"; };
+		A73110A720D4231B00A6C3B5 /* UserParamsVC.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = UserParamsVC.swift; sourceTree = "<group>"; usesTabs = 0; };
+		A73110A920D43C6800A6C3B5 /* WelcomeVC.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; usesTabs = 0; };
+		A73110AC20D452AB00A6C3B5 /* GenderVC.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = GenderVC.swift; sourceTree = "<group>"; usesTabs = 0; };
+		A73110AE20D452BF00A6C3B5 /* AgeVC.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = AgeVC.swift; sourceTree = "<group>"; usesTabs = 0; };
+		A73110B020D452CA00A6C3B5 /* HeightVC.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = HeightVC.swift; sourceTree = "<group>"; usesTabs = 0; };
+		A73110B220D452DE00A6C3B5 /* WeightVC.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = WeightVC.swift; sourceTree = "<group>"; usesTabs = 0; };
+		A74CF0FE20D8298000496211 /* IndividualMealVC.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = IndividualMealVC.swift; sourceTree = "<group>"; usesTabs = 0; };
+		A759807320BF268100841F36 /* CreateMealVC.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CreateMealVC.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 1; };
+		A783F2D720D033EE006A9E64 /* Foods.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; tabWidth = 1; usesTabs = 0; wrapsLines = 0; };
+		A783F2D920D05B78006A9E64 /* Helpers.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; tabWidth = 1; usesTabs = 0; };
+		A783F2DC20D17EA3006A9E64 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		A783F2FF20D18C33006A9E64 /* AllMealsVC.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = AllMealsVC.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 0; };
+		A783F30120D193E5006A9E64 /* PersistenceService.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; tabWidth = 1; usesTabs = 0; };
+		A783F31520D199B6006A9E64 /* Meal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A783F31620D199B6006A9E64 /* Meal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A7AD687D20E133DE003825C3 /* SwiftGifCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGifCommon.swift; sourceTree = "<group>"; };
+		A7AD688A20E17D43003825C3 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A7AD688B20E17D45003825C3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A7DB03DA20AB22F400297140 /* My Nutrition Plan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Nutrition Plan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DB03DD20AB22F400297140 /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; usesTabs = 0; };
+		A7DB03E220AB22F400297140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7DB03E420AB22F700297140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7DB03E920AB22F700297140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7DE6F3721382A4B0035430B /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		A7F65EBD20CD8C3A00B7CC80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A849B6A4899997F948793438 /* Pods-My Nutrition Plan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Nutrition Plan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Nutrition Plan/Pods-My Nutrition Plan.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7DB03D720AB22F400297140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4283F8043223E0ADA59DC110 /* Pods_My_Nutrition_Plan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08973BCB701F2FE85E2A0C9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01E6D5BE8F7212CC6935E26B /* Pods_My_Nutrition_Plan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AC6A3B050BC53C0B8D723AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A849B6A4899997F948793438 /* Pods-My Nutrition Plan.debug.xcconfig */,
+				2353D93D5871BCAC0EEB5C4D /* Pods-My Nutrition Plan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A73110AB20D4528C00A6C3B5 /* UserParamsPages */ = {
+			isa = PBXGroup;
+			children = (
+				A73110AC20D452AB00A6C3B5 /* GenderVC.swift */,
+				A73110AE20D452BF00A6C3B5 /* AgeVC.swift */,
+				A73110B020D452CA00A6C3B5 /* HeightVC.swift */,
+				A73110B220D452DE00A6C3B5 /* WeightVC.swift */,
+			);
+			path = UserParamsPages;
+			sourceTree = "<group>";
+		};
+		A74CF10420D84CE500496211 /* CoreData objects */ = {
+			isa = PBXGroup;
+			children = (
+				A783F31520D199B6006A9E64 /* Meal+CoreDataClass.swift */,
+				A783F31620D199B6006A9E64 /* Meal+CoreDataProperties.swift */,
+			);
+			path = "CoreData objects";
+			sourceTree = "<group>";
+		};
+		A759807520BF283C00841F36 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A783F2FF20D18C33006A9E64 /* AllMealsVC.swift */,
+				A759807320BF268100841F36 /* CreateMealVC.swift */,
+				A73110A720D4231B00A6C3B5 /* UserParamsVC.swift */,
+				A73110A920D43C6800A6C3B5 /* WelcomeVC.swift */,
+				A74CF0FE20D8298000496211 /* IndividualMealVC.swift */,
+				A716D2E120D9B6D00084442D /* WikiVC.swift */,
+				A73110AB20D4528C00A6C3B5 /* UserParamsPages */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A759807720BF286700841F36 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A7DB03E120AB22F400297140 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A759807920BF288300841F36 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A7DB03E420AB22F700297140 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A759807A20BF289700841F36 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				A7DB03DD20AB22F400297140 /* AppDelegate.swift */,
+				A783F2DB20D17EA3006A9E64 /* CoreData.xcdatamodeld */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		A75AE24720C59ADE00F55451 /* My Nutrition Plan */ = {
+			isa = PBXGroup;
+			children = (
+				A74CF10420D84CE500496211 /* CoreData objects */,
+				A783F2D720D033EE006A9E64 /* Foods.swift */,
+				A783F2D920D05B78006A9E64 /* Helpers.swift */,
+				A783F30120D193E5006A9E64 /* PersistenceService.swift */,
+			);
+			path = "My Nutrition Plan";
+			sourceTree = "<group>";
+		};
+		A7AD688920E17D3D003825C3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A7AD688B20E17D45003825C3 /* Constants.swift */,
+				A7AD688A20E17D43003825C3 /* UIView+Extension.swift */,
+				A7AD687D20E133DE003825C3 /* SwiftGifCommon.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A7DB03D120AB22F400297140 = {
+			isa = PBXGroup;
+			children = (
+				A7DB03DC20AB22F400297140 /* My Nutrition Plan */,
+				A7DB03DB20AB22F400297140 /* Products */,
+				6AC6A3B050BC53C0B8D723AE /* Pods */,
+				08973BCB701F2FE85E2A0C9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7DB03DB20AB22F400297140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7DB03DA20AB22F400297140 /* My Nutrition Plan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7DB03DC20AB22F400297140 /* My Nutrition Plan */ = {
+			isa = PBXGroup;
+			children = (
+				A7DE6F3721382A4B0035430B /* loading.gif */,
+				A75AE24720C59ADE00F55451 /* My Nutrition Plan */,
+				A759807720BF286700841F36 /* Storyboards */,
+				A7AD688920E17D3D003825C3 /* Helpers */,
+				A759807920BF288300841F36 /* Assets */,
+				A759807520BF283C00841F36 /* View Controllers */,
+				A759807A20BF289700841F36 /* Misc */,
+				A7DB03E920AB22F700297140 /* Info.plist */,
+				A7F65EBD20CD8C3A00B7CC80 /* GoogleService-Info.plist */,
+			);
+			path = "My Nutrition Plan";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7DB03D920AB22F400297140 /* My Nutrition Plan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DB03EC20AB22F700297140 /* Build configuration list for PBXNativeTarget "My Nutrition Plan" */;
+			buildPhases = (
+				A6B09AEB9AEBC30F60C0E7CF /* [CP] Check Pods Manifest.lock */,
+				A7DB03D620AB22F400297140 /* Sources */,
+				A7DB03D720AB22F400297140 /* Frameworks */,
+				A7DB03D820AB22F400297140 /* Resources */,
+				3EAA726413F272E31FAF0502 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Nutrition Plan";
+			productName = "My Nutrition Plan";
+			productReference = A7DB03DA20AB22F400297140 /* My Nutrition Plan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7DB03D220AB22F400297140 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Andris Akačenoks";
+				TargetAttributes = {
+					A7DB03D920AB22F400297140 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = A7DB03D520AB22F400297140 /* Build configuration list for PBXProject "My Nutrition Plan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7DB03D120AB22F400297140;
+			productRefGroup = A7DB03DB20AB22F400297140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7DB03D920AB22F400297140 /* My Nutrition Plan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7DB03D820AB22F400297140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DB03E520AB22F700297140 /* Assets.xcassets in Resources */,
+				A7DE6F3821382A4B0035430B /* loading.gif in Resources */,
+				A7DB03E320AB22F400297140 /* Main.storyboard in Resources */,
+				A7F65EBE20CD8C3A00B7CC80 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EAA726413F272E31FAF0502 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-My Nutrition Plan/Pods-My Nutrition Plan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-My Nutrition Plan/Pods-My Nutrition Plan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B09AEB9AEBC30F60C0E7CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Nutrition Plan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7DB03D620AB22F400297140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A783F2D820D033EE006A9E64 /* Foods.swift in Sources */,
+				A7DE6F3921382BE50035430B /* Constants.swift in Sources */,
+				A783F2DD20D17EA3006A9E64 /* CoreData.xcdatamodeld in Sources */,
+				A73110AF20D452BF00A6C3B5 /* AgeVC.swift in Sources */,
+				A73110B320D452DE00A6C3B5 /* WeightVC.swift in Sources */,
+				A74CF0FF20D8298000496211 /* IndividualMealVC.swift in Sources */,
+				A7AD687E20E133DE003825C3 /* SwiftGifCommon.swift in Sources */,
+				A783F31820D199B6006A9E64 /* Meal+CoreDataProperties.swift in Sources */,
+				A783F31720D199B6006A9E64 /* Meal+CoreDataClass.swift in Sources */,
+				A73110AA20D43C6800A6C3B5 /* WelcomeVC.swift in Sources */,
+				A783F2DA20D05B78006A9E64 /* Helpers.swift in Sources */,
+				A783F30220D193E5006A9E64 /* PersistenceService.swift in Sources */,
+				A7DB03DE20AB22F400297140 /* AppDelegate.swift in Sources */,
+				A73110A820D4231B00A6C3B5 /* UserParamsVC.swift in Sources */,
+				A73110B120D452CA00A6C3B5 /* HeightVC.swift in Sources */,
+				A716D2E220D9B6D00084442D /* WikiVC.swift in Sources */,
+				A783F30020D18C33006A9E64 /* AllMealsVC.swift in Sources */,
+				A759807420BF268100841F36 /* CreateMealVC.swift in Sources */,
+				A7DE6F3A21382BE90035430B /* UIView+Extension.swift in Sources */,
+				A73110AD20D452AB00A6C3B5 /* GenderVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7DB03E120AB22F400297140 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7DB03E220AB22F400297140 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7DB03EA20AB22F700297140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7DB03EB20AB22F700297140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7DB03ED20AB22F700297140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A849B6A4899997F948793438 /* Pods-My Nutrition Plan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3RL8HAW2B;
+				INFOPLIST_FILE = "My Nutrition Plan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akacenoks.andris.My-Nutrition-Plann";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7DB03EE20AB22F700297140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2353D93D5871BCAC0EEB5C4D /* Pods-My Nutrition Plan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X3RL8HAW2B;
+				INFOPLIST_FILE = "My Nutrition Plan/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akacenoks.andris.My-Nutrition-Plann";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7DB03D520AB22F400297140 /* Build configuration list for PBXProject "My Nutrition Plan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DB03EA20AB22F700297140 /* Debug */,
+				A7DB03EB20AB22F700297140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7DB03EC20AB22F700297140 /* Build configuration list for PBXNativeTarget "My Nutrition Plan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7DB03ED20AB22F700297140 /* Debug */,
+				A7DB03EE20AB22F700297140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A783F2DB20D17EA3006A9E64 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A783F2DC20D17EA3006A9E64 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = A783F2DC20D17EA3006A9E64 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7DB03D220AB22F400297140 /* Project object */;
+}
